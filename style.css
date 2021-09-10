@@ -31,7 +31,8 @@ body{
      border-radius: 18px;
      float: left;
      position: absolute;
-     left: 95%;
+     left: 92.5%;
+     bottom: 30%;
      padding: 7px 15px;     }
 
 nav>ul{
