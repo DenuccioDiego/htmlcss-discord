@@ -1,52 +1,57 @@
 *{
      box-sizing: border-box;
      padding: 0;
-     margin: 0;
-}
+     margin: 0; }
+
 .clearfix::after{ 
      content: "";
      display: table;
      clear: both;  }
 
+body{
+     position: relative;} 
+
 .margine{
      position: absolute;
-     z-index: 15;
-     left: 15%;
-}
+     left: 17.5%;
+     right: 17.5%;      }
 
 .sfondo_header{
      height: 65vh;
      background-image: url("./img/jumbo.png");
-     background-size: cover;
-}
+     background-size: cover;        }
 
-.logo{
-     margin-right:250px;
+.logo{ 
      display: inline;
-     float:left;
-}
+     float:left;   }
 
 .login{
      background-color: white;
      color: black;
-     margin-left:250px;
-     border-radius: 20px;
-     padding: 7px;     
-}
+     border-radius: 18px;
+     float: left;
+     position: absolute;
+     left: 95%;
+     padding: 7px 15px;     }
 
 nav>ul{
      list-style: none;
      float: left;
-}
+     position: absolute;
+     left: 25%;
+     right: 25%;
+     text-align: center;
+     width: 55%;     }
 
-ul>li{
+li {
      display: inline-block;
-     color: white;
-     padding-right: 40px;
-
-}
+     color: white; 
+     padding-right: 30px;}   
 
 nav{
-     padding-top: 30px;
      font-size: 20px;
-}
+     top: 5%; }
+
+     
+
+
