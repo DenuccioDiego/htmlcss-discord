@@ -1,7 +1,8 @@
 *{
      box-sizing: border-box;
      padding: 0;
-     margin: 0; }
+     margin: 0; 
+     font-family: sans-serif;}
 
 .clearfix::after{ 
      content: "";
@@ -10,6 +11,9 @@
 
 body{
      position: relative;} 
+
+header{
+     position: relative;}
 
 .margine{
      position: absolute;
@@ -29,10 +33,9 @@ body{
      background-color: white;
      color: black;
      border-radius: 18px;
-     float: left;
      position: absolute;
      left: 92.5%;
-     bottom: 30%;
+     bottom: 30%; 
      padding: 7px 15px;     }
 
 nav>ul{
@@ -44,15 +47,49 @@ nav>ul{
      text-align: center;
      width: 55%;     }
 
-li {
+nav li {
      display: inline-block;
      color: white; 
      padding-right: 30px;}   
 
 nav{
      font-size: 20px;
-     top: 5%; }
+     top: 5%; 
+     vertical-align: bottom;     }
 
-     
+a{
+     text-decoration: none;
+     color: inherit;   }
 
+.descrizione_header{
+     position: absolute;
+     top: 25%;
+     right:30%;
+     width: 40%;
+     font-size: 125%;
+     color: white;
+     text-align: center;
+     line-height: 35px;      }     
+
+h1{
+     text-align: center;
+     padding-bottom: 5%;
+     font-size: 250%;        }
+
+.bottoni div{
+     display: inline-block;
+     padding: 1rem 2rem ;
+     border-radius: 50px;
+     margin: 20px;    }
+
+.download{
+     background-color: white;
+     color: black;}
+
+.discord_web{
+     background-color: hsl(206deg 9% 15%);
+     color: white;}
+
+#arrow_down{
+     font-size: 2rem; }
 
