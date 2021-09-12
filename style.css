@@ -145,6 +145,11 @@ header h1{
      padding-top: 20px;   
 }
 
+.didascalia_due>p {
+     font-size: 20px;
+     padding-top: 30px;
+     text-align: justify;      } 
+
 .wave_bianca{
      background-image: url("./img/wave_bianca.svg");
      background-color: #f6f6f6;
@@ -154,10 +159,23 @@ header h1{
      position: absolute;
 }
 
+/* /Seconda sezione  */
 
+/* Terza sezione */
 
+.terza_sezione{
+     height: 500px;
+     width: 100%;
+     position: absolute;
+     top: 250vh ;
+}
 
+.terza_immagine{
+     float: left;
+}
+/* Terza sezione */
 
+/* Quarta sezione */
 
 
 
