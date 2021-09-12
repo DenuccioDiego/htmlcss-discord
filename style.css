@@ -13,7 +13,9 @@ body{
      position: relative;} 
 
 header{
-     position: relative;}
+     position: relative;
+     padding-bottom: 225px;
+}
 
 .margine{
      position: absolute;
@@ -71,7 +73,7 @@ a{
      text-align: center;
      line-height: 35px;      }     
 
-h1{
+header h1{
      text-align: center;
      padding-bottom: 5%;
      font-size: 250%;        }
@@ -92,4 +94,76 @@ h1{
 
 #arrow_down{
      font-size: 2rem; }
+
+
+/* Main */
+
+/* Prima sezione  */
+
+.immagine_prima_sezione>img{
+     float: left;
+     position: relative;
+     bottom: 35px;
+     left: 0;        }  
+
+.didascalia{
+     position: relative;
+     float: left;
+     text-align: left;
+     width: 30%;
+     left: 180px;
+     top: 0;
+     font-size: 25px;
+     color: #23272a;        }
+
+.didascalia>p {
+     font-size: 20px;
+     padding-top: 30px;
+     text-align: justify;      }
+
+/* /Prima sezione  */
+
+
+/* Seconda sezione  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .prova{
+     background-image: url("./img/wave.svg");
+     height: 10vh;
+     background-blend-mode:multiply;
+     background-color: red;
+} */
+
+
+
+
+
+
+
 
