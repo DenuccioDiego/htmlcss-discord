@@ -17,8 +17,7 @@
 .sfondo_header{
      height: 65vh;
      background-image: url("./img/jumbo.png");
-     background-size: cover;    
-}
+     background-size: cover;    }
 
 .logo{ 
      float:left;   }
@@ -92,8 +91,8 @@ header h1{
 /* Prima sezione  */
 .prima_sezione{
      position: relative;
-     padding-top: 125px;
-}
+     padding-top: 125px;   }
+
 .prima_immagine{
      
      float: left;
@@ -101,14 +100,11 @@ header h1{
      left: 0;        }  
 
 .didascalia{
-     
-     
-     padding-left: 5rem;
+     padding-left: 8rem;
+     padding-top: 2rem;
      float: left;
      text-align: left;
      width: 40%;
-     
-     
      font-size: 25px;
      color: #23272a;        }
 
@@ -121,9 +117,42 @@ header h1{
 
 
 /* Seconda sezione  */
+.seconda_sezione{
+     background-color: #f6f6f6;
+     height: 500px;
+     width: 100%;
+     position:absolute;
+     top: 160vh;
+}
+.wave_grigia{
+     background-image: url("./img/wave_grigia.svg");
+     background-color: white;
+     top:140vh;
+     position: absolute;
+     height: 20vh;
+     background-size: cover;
+     width: 100%;
+}
+.seconda_immagine{
+     float: right;
+     
+}
+.didascalia_due{
+     text-align: left;
+     width: 40%;
+     font-size: 25px;
+     color: #23272a; 
+     padding-top: 20px;   
+}
 
-
-
+.wave_bianca{
+     background-image: url("./img/wave_bianca.svg");
+     background-color: #f6f6f6;
+     height: 20vh;
+     width: 100%;
+     top:211vh;
+     position: absolute;
+}
 
 
 
