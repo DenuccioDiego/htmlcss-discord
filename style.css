@@ -9,14 +9,6 @@
      display: table;
      clear: both;  }
 
-body{
-     position: relative;} 
-
-header{
-     position: relative;
-     padding-bottom: 225px;
-}
-
 .margine{
      position: absolute;
      left: 17.5%;
@@ -25,19 +17,18 @@ header{
 .sfondo_header{
      height: 65vh;
      background-image: url("./img/jumbo.png");
-     background-size: cover;        }
+     background-size: cover;    
+}
 
 .logo{ 
-     display: inline;
      float:left;   }
 
 .login{
      background-color: white;
      color: black;
      border-radius: 18px;
-     position: absolute;
-     left: 92.5%;
-     bottom: 30%; 
+     float: right;
+     
      padding: 7px 15px;     }
 
 nav>ul{
@@ -99,20 +90,25 @@ header h1{
 /* Main */
 
 /* Prima sezione  */
-
-.immagine_prima_sezione>img{
-     float: left;
+.prima_sezione{
      position: relative;
+     padding-top: 125px;
+}
+.prima_immagine{
+     
+     float: left;
      bottom: 35px;
      left: 0;        }  
 
 .didascalia{
-     position: relative;
+     
+     
+     padding-left: 5rem;
      float: left;
      text-align: left;
-     width: 30%;
-     left: 180px;
-     top: 0;
+     width: 40%;
+     
+     
      font-size: 25px;
      color: #23272a;        }
 
@@ -150,15 +146,6 @@ header h1{
 
 
 
-
-
-
-/* .prova{
-     background-image: url("./img/wave.svg");
-     height: 10vh;
-     background-blend-mode:multiply;
-     background-color: red;
-} */
 
 
 
