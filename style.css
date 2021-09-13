@@ -162,7 +162,7 @@ header h1{
 /* Terza sezione */
 
 .terza_sezione{
-     
+     padding: 150px  0  150px;
      width: 100%;
      padding: 150px  0  150px; 
 }
@@ -172,13 +172,30 @@ header h1{
      width: 60%;
 }
 
-
 /* Terza sezione */
 
 /* Quarta sezione */
 
+.quarta_sezione{
+     background-color: #f6f6f6;
+     width: 100%;
+}
 
+.quarta_didascalia{
+     padding-top: 100px;
+     text-align: center;
+     width: 100%;
+     font-size: 25px;
+     color: #23272a;
 
+}
+
+.quarta_immagine{
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     width: 90%;
+}
 
 
 
