@@ -9,10 +9,10 @@
      display: table;
      clear: both;  }
 
-.margine{
+/* .margine{
      position: absolute;
      left: 17.5%;
-     right: 17.5%;      }
+     right: 17.5%;      } */
 
 .sfondo_header{
      height: 65vh;
@@ -54,9 +54,7 @@ a{
      color: inherit;   }
 
 .descrizione_header{
-     position: absolute;
-     top: 25%;
-     right:30%;
+     float: right;
      width: 40%;
      font-size: 125%;
      color: white;
@@ -90,18 +88,17 @@ header h1{
 
 /* Prima sezione  */
 .prima_sezione{
-     position: relative;
-     padding-top: 125px;   }
+     
+
+}
 
 .prima_immagine{
-     
+     width: 60%;
      float: left;
-     bottom: 35px;
-     left: 0;        }  
+}  
 
 .didascalia{
-     padding-left: 8rem;
-     padding-top: 2rem;
+     
      float: left;
      text-align: left;
      width: 40%;
@@ -119,10 +116,8 @@ header h1{
 /* Seconda sezione  */
 .seconda_sezione{
      background-color: #f6f6f6;
-     height: 500px;
      width: 100%;
-     position:absolute;
-     top: 160vh;
+     
 }
 .wave_grigia{
      background-image: url("./img/wave_grigia.svg");
