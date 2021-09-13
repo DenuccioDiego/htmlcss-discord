@@ -9,10 +9,9 @@
      display: table;
      clear: both;  }
 
-/* .margine{
-     position: absolute;
-     left: 17.5%;
-     right: 17.5%;      } */
+.margine{
+     margin-right: 200px; 
+     margin-left: 200px;     }
 
 .sfondo_header{
      height: 65vh;
@@ -121,9 +120,7 @@ header h1{
 }
 .wave_grigia{
      background-image: url("./img/wave_grigia.svg");
-     background-color: white;
-     top:140vh;
-     position: absolute;
+     background-color: white; 
      height: 20vh;
      background-size: cover;
      width: 100%;
@@ -150,8 +147,8 @@ header h1{
      background-color: #f6f6f6;
      height: 20vh;
      width: 100%;
-     top:211vh;
-     position: absolute;
+     
+     
 }
 
 /* /Seconda sezione  */
@@ -160,9 +157,7 @@ header h1{
 
 .terza_sezione{
      height: 500px;
-     width: 100%;
-     position: absolute;
-     top: 250vh ;
+     width: 100%; 
 }
 
 .terza_immagine{
