@@ -236,7 +236,7 @@ header h1{
 
 /* Footer */
 
-
+/* Prima parte del footer */
 .sfondo_footer{
      background-color: #23272a;
      height: 80vh;
@@ -268,4 +268,9 @@ footer ul{
 
 footer li{
      padding:15px 0 15px;
-}
+     color: white;
+     font-weight: 600;}
+
+/* /Prima parte del footer */
+
+/* Sezione seconda del footer */
