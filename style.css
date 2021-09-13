@@ -260,6 +260,8 @@ header h1{
 
 .colonna>h3{
      color: #7289da;
+     
+    
 }
 
 footer ul{
@@ -270,6 +272,28 @@ footer li{
      padding:15px 0 15px;
      color: white;
      font-weight: 600;}
+
+
+.prima_colonna span{
+     color: white;  
+     
+}
+
+
+#freccia_menù{
+     border: solid white;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 3px;
+     transform: rotate(45deg);
+     margin-left: 5px;
+     vertical-align: text-top;
+}
+
+#bandiera_italia{
+     width: 5%;
+     padding-top: 20px;
+}
 
 /* /Prima parte del footer */
 
@@ -287,6 +311,8 @@ footer hr{
      padding: 7px 15px;
      border-radius: 18px;
      color: white;
-     margin-left: 84%;
+     margin-left: 83%;
+     font-weight: 600;
 }
 
+/* /Sezione seconda del footer */
