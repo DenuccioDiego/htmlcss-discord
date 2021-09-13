@@ -179,6 +179,7 @@ header h1{
 .quarta_sezione{
      background-color: #f6f6f6;
      width: 100%;
+     padding-bottom: 125px;
 }
 
 .quarta_didascalia{
@@ -210,9 +211,9 @@ header h1{
  }
 
  .download_due>a{
-      font-size: 1.25rem;
-      font-weight: 600;
-      padding-bottom: 150px;
+     font-size: 1.25rem;
+     font-weight: 600;
+
  }
 
 .quarta_sezione_ptdue > h1{
@@ -227,6 +228,7 @@ header h1{
      background-repeat: no-repeat;
      background-size: contain;
      width: 50%;
+     margin:auto;
      
 }
 
