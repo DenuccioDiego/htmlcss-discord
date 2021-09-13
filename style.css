@@ -10,8 +10,8 @@
      clear: both;  }
 
 .margine{
-     margin-right: 225px; 
-     margin-left: 225px;     }
+     margin-right: 250px; 
+     margin-left: 250px;     }
 
 .sfondo_header{
      height: 65vh;
@@ -91,13 +91,14 @@ header h1{
 
 /* Prima sezione  */
 .prima_sezione{
-          margin-top: 200px;
-
+     margin-top: 150px;
+     padding-bottom: 100px;
 }
 
 .prima_immagine{
      width: 60%;
      float: left;
+     
 }  
 
 .didascalia{
@@ -106,7 +107,9 @@ header h1{
      text-align: left;
      width: 40%;
      font-size: 25px;
-     color: #23272a;        }
+     color: #23272a;
+     padding-left: 200px;
+}
 
 .didascalia>p {
      font-size: 20px;
@@ -120,7 +123,7 @@ header h1{
 .seconda_sezione{
      background-color: #f6f6f6;
      width: 100%;
-     
+     padding: 150px  0  150px;
 }
 .wave_grigia{
      background-image: url("./img/wave_grigia.svg");
@@ -131,14 +134,15 @@ header h1{
 }
 .seconda_immagine{
      float: right;
-     
+     width: 60%;
 }
 .didascalia_due{
      text-align: left;
      width: 40%;
      font-size: 25px;
      color: #23272a; 
-     padding-top: 20px;   
+     padding-top: 20px;
+     padding-right: 200px;   
 }
 
 .didascalia_due>p {
@@ -151,8 +155,6 @@ header h1{
      background-color: #f6f6f6;
      height: 20vh;
      width: 100%;
-     
-     
 }
 
 /* /Seconda sezione  */
@@ -160,13 +162,17 @@ header h1{
 /* Terza sezione */
 
 .terza_sezione{
-     height: 500px;
-     width: 100%; 
+     
+     width: 100%;
+     padding: 150px  0  150px; 
 }
 
 .terza_immagine{
      float: left;
+     width: 60%;
 }
+
+
 /* Terza sezione */
 
 /* Quarta sezione */
