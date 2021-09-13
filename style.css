@@ -237,15 +237,35 @@ header h1{
 /* Footer */
 
 
+.sfondo_footer{
+     background-color: #23272a;
+     height: 80vh;
+     
+}
 
+.prima_colonna{
+     width: 28%;
+     float: left;
+     padding-top: 65px;
+     padding-right: 50px;
+     color: #7289da;
+}
 
+.colonna{
+     width: 18%;
+     float: left;
+     padding-top: 65px;
+     
+}
 
+.colonna>h3{
+     color: #7289da;
+}
 
+footer ul{
+     list-style: none;
+}
 
-
-
-
-
-
-
-
+footer li{
+     padding:15px 0 15px;
+}
